@@ -1,0 +1,23 @@
+.navigation {
+    background-color: rgb(240, 197, 145);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.navigation__link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navigation__orderList {
+    list-style-type: none;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.navigation__unorderList {
+    margin-top: 0px;
+    list-style-position: inside;
+}

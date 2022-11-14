@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcin Nir</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="body js-body">
+  <header class="header js-header">
+    Marcin, który został programistą!
+    <button class="buttonTheme js-buttonTheme">
+      Zmień motyw na <span class="currentTheme js-currentTheme">ciemny</span>
+    </button>
+  </header>
+
+  <nav class="navigation">
+    <ol class="navigation__orderList">
+      <li><a href="#o_mnie" class="navigation__link">O mnie</a></li>
+      <li><a href="#moje_zainteresowania" class="navigation__link">Moje zainteresowania:</a></li>
+    </ol>
+    <ul class="navigation__unorderList">
+      <li><a href="#gry_komputerowe" class="navigation__link">Gry komputerowe</a></li>
+      <li><a href="#gory" class="navigation__link">Góry</a></li>
+      <li><a href="#sport" class="navigation__link">Sport</a></li>
+      <li><a href="#gotowanie" class="navigation__link">Gotowanie</a></li>
+      <li><a href="#ksiazka" class="navigation__link">Książka</a></li>
+    </ul>
+  </nav>
+
+  <section id="o_mnie">
+    <h1 class="title js-title">O mnie</h1>
+    <p>
+      Cześć, nazywam się Marcin, mam 34 lata i urodziłem się w Łasku w
+      centralnej Polsce. Dorastałem w małej miejscowości o
+      <em>pięknej</em> nazwie Lubań pod zachodnią granicą, a obecnie mieszkam
+      w Gołuchowie koło Kalisza. Z wykształcenia jestem nauczycielem
+      wychowania fizycznego, a z zawodu kierowcą zawodowym. Obecenie pracuje w
+      firmie <i>Geodis</i>, jako kierowca ciężarówki. No, ale dosyć zanudzania
+      o tym kim byłem, lepiej mówić o tym kim chce być i będę.
+      <strong>Czas na bycie programistą!!!</strong>
+    </p>
+  </section>
+
+  <section id="moje_zainteresowania">
+    <h2 class="title js-title">Moje zainteresowania</h2>
+    <p>
+      W tym rozdziale chciałbym przybliżyć Wam rzeczy, którymi się interesuję.
+      Są to moje hobby, które od lat towarzyszą mi w moim życiu. Programowanie
+      chyba do nich dołączy :)
+    </p>
+    <article id="gry_komputerowe">
+      <h3>Gry komputerowe</h3>
+      <p>
+        Od dzieciństwa gry komputerowe towarzyszyły mi w moim życiu. Pierwszy
+        komputer w domu pojawił się już w 1995 roku. W tamtych czasach
+        zagrywałem się w takie gry jak Heroes: Might and Magic II, Setllers
+        czy Civilization. Obecenie gram trochę mniej, ale nadal od czasu do
+        czasu uwielbiam przenieść się do wirtualnego świata gier. Jest to
+        trochę taki
+        <i>guilty pleasure</i>, ale co mi tam, na coś czas trzeba marnować.
+      </p>
+      <div class="article__container">
+        <table class="table">
+          <caption class="table__caption">
+            TOP 5 moich ulubionych gier komputerowych
+          </caption>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="col">Nazwa gry</th>
+            <th class="table__cell table__cell--header" scope="col">Producent</th>
+            <th class="table__cell table__cell--header" scope="col">rodzaj gry</th>
+            <th class="table__cell table__cell--header" scope="col">data premiery</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              <a rel="noreferrer noopener" class="link" target="_blank"
+                href="https://www.gry-online.pl/gry/the-witcher-3-wild-hunt/z83579"
+                title="Więcej inforamcji o grze The Witcher 3:Dziki Gon">
+                Wiedźmin 3: Dziki Gon</a>
+            </th>
+            <td class="table__cell">CD Projekt RED</td>
+            <td class="table__cell">Gra akcji RPG</td>
+            <td class="table__cell">19 maj 2015</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              <a rel="noreferrer noopener" class="link" target="_blank"
+                href="https://www.gry-online.pl/gry/cities-skylines/zf3e3d"
+                title="Więcej inforamcji o grze Cities: Skylines">Cities: Skylines</a>
+            </th>
+            <td class="table__cell">Colossal Order</td>
+            <td class="table__cell">Gra strategiczna</td>
+            <td class="table__cell">10 marzec 2015</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              <a rel="noreferrer noopener" class="link" target="_blank"
+                href="https://www.gry-online.pl/gry/red-dead-redemption-ii/zb4a0f"
+                title="Więcej inforamcji o grze Red Dead Redemption 2">
+                Red Dead Redemption 2</a>
+            </th>
+            <td class="table__cell">Rockstar Games</td>
+            <td class="table__cell">Gra akcji</td>
+            <td class="table__cell">26 październik 2018</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              <a rel="noreferrer noopener" class="link" target="_blank"
+                href="https://www.gry-online.pl/gry/russian-fishing-4/zd614b"
+                title="Więcej inforamcji o grze Russian Fishing 4">
+                Russian Fishing 4</a>
+            </th>
+            <td class="table__cell">Russian Fishing</td>
+            <td class="table__cell">Symulator</td>
+            <td class="table__cell">wczesny dostęp 15 czerwiec 2018</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              <a rel="noreferrer noopener" class="link" target="_blank"
+                href="https://www.gry-online.pl/gry/tom-clancys-rainbow-six-siege/z23d74"
+                title="Więcej inforamcji o grze Tom Clancy's Rainbow Six: Siege">
+                Tom Clancy's Rainbow Six: Siege</a>
+            </th>
+            <td class="table__cell">Ubisoft</td>
+            <td class="table__cell">Sieciowa gra akcji</td>
+            <td class="table__cell">1 grudzień 2015</td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    <article id="gory">
+      <h3>Góry</h3>
+      <p>
+        Góry to moja miłość. Z czystym sumieniem mogę powiedzieć, że jest to
+        miłość bezwarunkowa. Nie ważne czy jest to zima, lato, jesień czy
+        wiosna. Góry są zawsze piękne, tajemnicze i na swój sposób
+        przerażające. Praca programisty pomogła by mi korzystać z uroków gór
+        częściej. Jest to jeden z powodów dlaczego podjąłem próbę zmiany
+        branży.
+        <br>Kilka zdjęć z górskich wypraw.
+      </p>
+      <div class="article__photo js-photo">
+        <img width="400" height="300" src="image/bieszczady2.jpg" alt="bieszczadzki szlak">
+        <img width="400" height="300" src="image/bieszczady3.jpg" alt="chwila odpoczynku z widokiem na las">
+        <img width="400" height="300" src="image/bieszczady4.jpg" alt="bieszczadzka połonina">
+        <img width="400" height="300" src="image/bieszczady5.jpg" alt="słoneczne połoniny bieszczad">
+      </div>
+      <p class="article__buttonCenter">
+        <button class="article__button js-button">Schowaj zdjęcia</button>
+      </p>
+    </article>
+    <article id="sport">
+      <h3>Sport</h3>
+      <p>
+        Z racji wykształcenia sport nie może być mi obcy. Przez całe życie,
+        mniej więcej do 30 roku życia grałem amatorsko w piłkę nożną.
+        Najwyższa klasa rozgrywkowa o którą się otarłem to III liga polska,
+        ale głownie można mnie było zobaczyć na boiskach IV ligi bądź lig
+        okręgowych. Obecnie moja rola sportowca poza kilkoma wyjątkami na
+        bieganie, jeźdzenie rowerem lub basen, sprowadza się do roli
+        obserwatora. W tym roku postanowiłem rozpocząć kibicowanie Stali
+        Ostrów Wielkopolski w koszykówkę. Poza tym piłka nożna, siatkówka i
+        piłka ręczna ale już tylko na poziomie reprezentacyjnym. Niedawo
+        również zafascynowałem się grą w szachy, nie ma dnia abym jakiejś
+        partii nie rozegrał, ale do arcy-mistrza mi daleko.
+      </p>
+    </article>
+    <article id="gotowanie">
+      <h3>Gotowanie</h3>
+      <p>dział w budowie</p>
+    </article>
+    <article id="ksiazka">
+      <h3>Książka</h3>
+      <p>dział w budowie</p>
+    </article>
+  </section>
+  <footer class="footer">
+    Kontakt:
+    <a href="mailto:nirmarcin@gmail.com" class="footer__link">nirmarcin@gmail.com</a>
+    Copyright © by Marcin Nir
+  </footer>
+</body>
+
+</html>

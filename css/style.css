@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: beige;
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+    font-size: 24px;
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.darkTitle {
+    color: beige;
+    font-size: 35px;
+}
+
+.photo {
+    text-align: center;
+}
+
+
+
+
+.link {
+    color: rgb(0, 0, 0);
+}
+
+.link:focus {
+    outline: 2px solid beige;
+}
+
+.link:hover {
+    color: beige;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.dark {
+    color: beige;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 60px;
+
+}
+
+.changeBody {
+    font-family: "Roboto", sans-serif;
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+    font-size: 24px;
+}
+
+.buttonTheme {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(253, 253, 253, 0.6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 50%;
+}
+
+.changeBody .title {
+    color: beige;
+}
+.container {
+    overflow-x: auto;
+}

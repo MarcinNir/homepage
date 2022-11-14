@@ -1,0 +1,13 @@
+.article__button {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(253, 253, 253, 0.6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.article__buttonCenter {
+    text-align: center;
+}
