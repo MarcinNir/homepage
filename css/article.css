@@ -8,9 +8,11 @@
     padding: 3px 10px;
     cursor: pointer;
 }
+
 .article__buttonCenter {
     text-align: center;
 }
+
 .article__photo {
-    text-align:center;
-    }
+    text-align: center;
+}
